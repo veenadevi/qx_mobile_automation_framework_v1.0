@@ -1,0 +1,6 @@
+2024-01-31 22:01:16,187 [main] INFO  LoginPage-isAddContactDisplayed-149 - add contact displayed
+2024-01-31 22:01:18,607 [main] INFO  LoginPage-clickOnAddContact-117 - Tap on add contact
+2024-01-31 22:01:20,517 [main] INFO  LoginPage-enterName-69 - Enter the name
+2024-01-31 22:01:21,739 [main] INFO  LoginPage-enterEmail-94 - Enter the email
+2024-01-31 22:01:23,598 [main] INFO  LoginPage-enterContactPhone-81 - Enter the mobileNumber
+2024-01-31 22:01:26,770 [main] INFO  LoginPage-clickOnSave-106 - Tap on save

@@ -1,0 +1,5 @@
+/reports/
+/extent-reports/
+test-reports *
+/test-reports */
+/cucumber-reports/

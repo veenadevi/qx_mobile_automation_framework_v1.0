@@ -1,0 +1,146 @@
+2024-05-23 11:18:19:436 [Appium] Welcome to Appium v1.22.1
+2024-05-23 11:18:19:437 [Appium] Non-default server args:
+2024-05-23 11:18:19:438 [Appium]   address: 127.0.0.1
+2024-05-23 11:18:19:438 [Appium]   port: 55054
+2024-05-23 11:18:19:438 [Appium]   bootstrapPort: 55052
+2024-05-23 11:18:19:438 [Appium]   logFile: D:\Qualitrix\Automation Initiative\QTX_Base_Frameworks\MOBILE\qx_mobile_automation_framework_v1.0\reports\Report_2024-05-23 16-48-18\df2579eb\logs\appium_log_1716463098451.txt
+2024-05-23 11:18:19:438 [Appium]   chromedriverPort: 55053
+2024-05-23 11:18:19:439 [Appium] Deprecated server args:
+2024-05-23 11:18:19:440 [Appium]   --chromedriver-port => --default-capabilities
+2024-05-23 11:18:19:440 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2024-05-23 11:18:19:440 [Appium]   chromedriverPort: 55053
+2024-05-23 11:18:19:463 [Appium] Appium REST http interface listener started on 127.0.0.1:55054
+2024-05-23 11:18:19:744 [HTTP] --> GET /wd/hub/status
+2024-05-23 11:18:19:744 [HTTP] {}
+2024-05-23 11:18:19:745 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-05-23 11:18:19:746 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2024-05-23 11:18:19:751 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2024-05-23 11:18:19:751 [HTTP] 
+2024-05-23 11:18:19:757 [HTTP] --> GET /wd/hub/status
+2024-05-23 11:18:19:757 [HTTP] {}
+2024-05-23 11:18:19:758 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-05-23 11:18:19:758 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2024-05-23 11:18:19:759 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2024-05-23 11:18:19:759 [HTTP] 
+2024-05-23 11:18:20:301 [HTTP] --> POST /wd/hub/session
+2024-05-23 11:18:20:302 [HTTP] {"desiredCapabilities":{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"11.0.0","automationName":"uiautomator2","platformName":"Android","udid":"df2579eb","deviceName":"df2579eb","launchTimeout":90000,"systemPort":55059},"capabilities":{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"df2579eb","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"11.0.0","appium:systemPort":55059,"appium:udid":"df2579eb"}]}}
+2024-05-23 11:18:20:302 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"11.0.0","automationName":"uiautomator2","platformName":"Android","udid":"df2579eb","deviceName":"df2579eb","launchTimeout":90000,"systemPort":55059},null,{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"df2579eb","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"11.0.0","appium:systemPort":55059,"appium:udid":"df2579eb"}]}]
+2024-05-23 11:18:20:302 [BaseDriver] Event 'newSessionRequested' logged at 1716463100302 (16:48:20 GMT+0530 (India Standard Time))
+2024-05-23 11:18:20:305 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2024-05-23 11:18:20:305 [BaseDriver]   chromedriverPort
+2024-05-23 11:18:20:453 [Appium] Appium v1.22.1 creating new AndroidUiautomator2Driver (v1.70.1) session
+2024-05-23 11:18:20:455 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2024-05-23 11:18:20:455 [BaseDriver] Creating session with W3C capabilities: {
+2024-05-23 11:18:20:455 [BaseDriver]   "alwaysMatch": {
+2024-05-23 11:18:20:455 [BaseDriver]     "platformName": "android",
+2024-05-23 11:18:20:455 [BaseDriver]     "appium:chromedriverPort": 55053,
+2024-05-23 11:18:20:455 [BaseDriver]     "appium:appActivity": "com.example.android.contactmanager.ContactManager",
+2024-05-23 11:18:20:455 [BaseDriver]     "appium:appPackage": "com.example.android.contactmanager",
+2024-05-23 11:18:20:455 [BaseDriver]     "appium:automationName": "uiautomator2",
+2024-05-23 11:18:20:456 [BaseDriver]     "appium:deviceName": "df2579eb",
+2024-05-23 11:18:20:456 [BaseDriver]     "appium:launchTimeout": 90000,
+2024-05-23 11:18:20:456 [BaseDriver]     "appium:newCommandTimeout": 600,
+2024-05-23 11:18:20:456 [BaseDriver]     "appium:platformVersion": "11.0.0",
+2024-05-23 11:18:20:456 [BaseDriver]     "appium:systemPort": 55059,
+2024-05-23 11:18:20:456 [BaseDriver]     "appium:udid": "df2579eb"
+2024-05-23 11:18:20:456 [BaseDriver]   },
+2024-05-23 11:18:20:456 [BaseDriver]   "firstMatch": [
+2024-05-23 11:18:20:456 [BaseDriver]     {}
+2024-05-23 11:18:20:456 [BaseDriver]   ]
+2024-05-23 11:18:20:456 [BaseDriver] }
+2024-05-23 11:18:20:461 [BaseDriver] Session created with session id: 8cbb9660-3f7d-4dc0-9679-4950e803aff1
+2024-05-23 11:18:20:462 [UiAutomator2] Starting 'com.example.android.contactmanager' directly on the device
+2024-05-23 11:18:20:470 [ADB] Found 1 'build-tools' folders under 'C:\Users\Veena\AppData\Local\Android\Sdk' (newest first):
+2024-05-23 11:18:20:470 [ADB]     C:/Users/Veena/AppData/Local/Android/Sdk/build-tools/34.0.0
+2024-05-23 11:18:20:470 [ADB] Using 'adb.exe' from 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-05-23 11:18:20:470 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-05-23 11:18:20:497 [AndroidDriver] Retrieving device list
+2024-05-23 11:18:20:497 [ADB] Trying to find a connected android device
+2024-05-23 11:18:20:498 [ADB] Getting connected devices
+2024-05-23 11:18:20:516 [ADB] Connected devices: [{"udid":"df2579eb","state":"device"}]
+2024-05-23 11:18:20:516 [AndroidDriver] Using device: df2579eb
+2024-05-23 11:18:20:517 [ADB] Using 'adb.exe' from 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-05-23 11:18:20:517 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-05-23 11:18:20:535 [ADB] Setting device id to df2579eb
+2024-05-23 11:18:20:535 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell getprop ro.build.version.sdk'
+2024-05-23 11:18:20:590 [ADB] Current device property 'ro.build.version.sdk': 34
+2024-05-23 11:18:20:591 [ADB] Getting device platform version
+2024-05-23 11:18:20:591 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell getprop ro.build.version.release'
+2024-05-23 11:18:20:648 [ADB] Current device property 'ro.build.version.release': 14
+2024-05-23 11:18:20:648 [ADB] Device API level: 34
+2024-05-23 11:18:20:648 [UiAutomator2] Relaxing hidden api policy
+2024-05-23 11:18:20:648 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2024-05-23 11:18:20:779 [UiAutomator2] Deleting UiAutomator2 session
+2024-05-23 11:18:20:779 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell am force-stop com.example.android.contactmanager'
+2024-05-23 11:18:20:827 [ADB] Removing forwarded port socket connection: 55059 
+2024-05-23 11:18:20:828 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb forward --remove tcp:55059'
+2024-05-23 11:18:20:849 [UiAutomator2] Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\Veena\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s df2579eb forward --remove tcp\:55059' exited with code 1'; Command output: adb.exe: error: listener 'tcp:55059' not found
+2024-05-23 11:18:20:849 [UiAutomator2] 
+2024-05-23 11:18:20:849 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2024-05-23 11:18:20:849 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2024-05-23 11:18:20:933 [BaseDriver] Event 'newSessionStarted' logged at 1716463100933 (16:48:20 GMT+0530 (India Standard Time))
+2024-05-23 11:18:20:933 [W3C] Encountered internal error running command: Error executing adbExec. Original error: 'Command 'C:\\Users\\Veena\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s df2579eb shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 255'; Command output: 
+2024-05-23 11:18:20:933 [W3C] Exception occurred while executing 'delete':
+2024-05-23 11:18:20:933 [W3C] java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+2024-05-23 11:18:20:933 [W3C] 	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2359)
+2024-05-23 11:18:20:933 [W3C] 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1494)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1486)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1457)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:544)
+2024-05-23 11:18:20:934 [W3C] 	at android.content.ContentProvider.call(ContentProvider.java:2700)
+2024-05-23 11:18:20:934 [W3C] 	at android.content.ContentProvider$Transport.call(ContentProvider.java:634)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:408)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:282)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+2024-05-23 11:18:20:934 [W3C] 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+2024-05-23 11:18:20:934 [W3C] 	at android.os.Binder.shellCommand(Binder.java:1075)
+2024-05-23 11:18:20:934 [W3C] 	at android.os.Binder.onTransact(Binder.java:895)
+2024-05-23 11:18:20:934 [W3C] 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+2024-05-23 11:18:20:934 [W3C] 	at android.os.Binder.execTransact(Binder.java:1282)
+2024-05-23 11:18:20:934 [W3C] 
+2024-05-23 11:18:20:934 [W3C] Exception occurred while executing 'delete':
+2024-05-23 11:18:20:934 [W3C] java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2359)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1494)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1486)
+2024-05-23 11:18:20:934 [W3C] 	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1457)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:544)
+2024-05-23 11:18:20:935 [W3C] 	at android.content.ContentProvider.call(ContentProvider.java:2700)
+2024-05-23 11:18:20:935 [W3C] 	at android.content.ContentProvider$Transport.call(ContentProvider.java:634)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:408)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:282)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+2024-05-23 11:18:20:935 [W3C] 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+2024-05-23 11:18:20:935 [W3C] 	at android.os.Binder.shellCommand(Binder.java:1075)
+2024-05-23 11:18:20:935 [W3C] 	at android.os.Binder.onTransact(Binder.java:895)
+2024-05-23 11:18:20:935 [W3C] 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+2024-05-23 11:18:20:935 [W3C] 	at android.os.Binder.execTransact(Binder.java:1282)
+2024-05-23 11:18:20:935 [W3C] 
+2024-05-23 11:18:20:935 [W3C] Exception occurred while executing 'delete':
+2024-05-23 11:18:20:935 [W3C] java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2359)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1494)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1486)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1457)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:544)
+2024-05-23 11:18:20:935 [W3C] 	at android.content.ContentProvider.call(ContentProvider.java:2700)
+2024-05-23 11:18:20:935 [W3C] 	at android.content.ContentProvider$Transport.call(ContentProvider.java:634)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:408)
+2024-05-23 11:18:20:935 [W3C] 	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:282)
+2024-05-23 11:18:20:936 [W3C] 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+2024-05-23 11:18:20:936 [W3C] 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+2024-05-23 11:18:20:936 [W3C] 	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+2024-05-23 11:18:20:936 [W3C] 	at android.os.Binder.shellCommand(Binder.java:1075)
+2024-05-23 11:18:20:936 [W3C] 	at android.os.Binder.onTransact(Binder.java:895)
+2024-05-23 11:18:20:936 [W3C] 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+2024-05-23 11:18:20:936 [W3C] 	at android.os.Binder.execTransact(Binder.java:1282)
+2024-05-23 11:18:20:936 [W3C] 
+2024-05-23 11:18:20:936 [W3C] Error: Command 'C:\\Users\\Veena\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s df2579eb shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 255
+2024-05-23 11:18:20:936 [W3C]     at ChildProcess.<anonymous> (C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\teen_process\lib\exec.js:113:19)
+2024-05-23 11:18:20:936 [W3C]     at ChildProcess.emit (node:events:518:28)
+2024-05-23 11:18:20:936 [W3C]     at maybeClose (node:internal/child_process:1105:16)
+2024-05-23 11:18:20:936 [W3C]     at Process.ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2024-05-23 11:18:20:950 [HTTP] <-- POST /wd/hub/session 500 647 ms - 10455
+2024-05-23 11:18:20:950 [HTTP] 

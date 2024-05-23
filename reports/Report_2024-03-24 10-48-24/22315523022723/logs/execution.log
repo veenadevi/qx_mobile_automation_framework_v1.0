@@ -1,0 +1,6 @@
+2024-03-24 10:49:25,501 [main] INFO  LoginPage-isAddContactDisplayed-206 - TestCase failed due to : add contact is not displayed
+2024-03-24 10:49:27,837 [main] INFO  LoginPage-clickOnAddContact-165 - Tap on add contact
+2024-03-24 10:49:30,281 [main] INFO  LoginPage-enterName-86 - Enter the name
+2024-03-24 10:49:31,562 [main] INFO  LoginPage-enterEmail-127 - Enter the email
+2024-03-24 10:49:33,815 [main] INFO  LoginPage-enterContactPhone-106 - Enter the mobileNumber
+2024-03-24 10:49:37,145 [main] INFO  LoginPage-clickOnSave-147 - Tap on save

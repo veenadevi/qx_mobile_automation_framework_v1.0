@@ -1,0 +1,196 @@
+2024-01-31 16:34:22:930 [Appium] Welcome to Appium v1.22.3
+2024-01-31 16:34:22:931 [Appium] Non-default server args:
+2024-01-31 16:34:22:931 [Appium]   address: 127.0.0.1
+2024-01-31 16:34:22:931 [Appium]   port: 57078
+2024-01-31 16:34:22:931 [Appium]   bootstrapPort: 57076
+2024-01-31 16:34:22:932 [Appium]   logFile: /Users/apple/AutomationMobile/reports/Report_2024-01-31 22-04-21/pvq8gmjz75j7fu6p/logs/appium_log_1706718861722.txt
+2024-01-31 16:34:22:932 [Appium]   chromedriverPort: 57077
+2024-01-31 16:34:22:933 [Appium] Deprecated server args:
+2024-01-31 16:34:22:933 [Appium]   --chromedriver-port => --default-capabilities
+2024-01-31 16:34:22:933 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2024-01-31 16:34:22:934 [Appium]   chromedriverPort: 57077
+2024-01-31 16:34:22:953 [Appium] Appium REST http interface listener started on 127.0.0.1:57078
+2024-01-31 16:34:23:083 [HTTP] --> GET /wd/hub/status
+2024-01-31 16:34:23:084 [HTTP] {}
+2024-01-31 16:34:23:085 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-01-31 16:34:23:086 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2024-01-31 16:34:23:091 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2024-01-31 16:34:23:091 [HTTP] 
+2024-01-31 16:34:23:095 [HTTP] --> GET /wd/hub/status
+2024-01-31 16:34:23:095 [HTTP] {}
+2024-01-31 16:34:23:096 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-01-31 16:34:23:096 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2024-01-31 16:34:23:097 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2024-01-31 16:34:23:097 [HTTP] 
+2024-01-31 16:34:23:479 [HTTP] --> POST /wd/hub/session
+2024-01-31 16:34:23:479 [HTTP] {"desiredCapabilities":{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"13.0.0","automationName":"uiautomator2","platformName":"Android","udid":"pvq8gmjz75j7fu6p","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"systemPort":57089},"capabilities":{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"pvq8gmjz75j7fu6p","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"13.0.0","appium:systemPort":57089,"appium:udid":"pvq8gmjz75j7fu6p"}]}}
+2024-01-31 16:34:23:479 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"13.0.0","automationName":"uiautomator2","platformName":"Android","udid":"pvq8gmjz75j7fu6p","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"systemPort":57089},null,{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"pvq8gmjz75j7fu6p","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"13.0.0","appium:systemPort":57089,"appium:udid":"pvq8gmjz75j7fu6p"}]}]
+2024-01-31 16:34:23:479 [BaseDriver] Event 'newSessionRequested' logged at 1706718863479 (22:04:23 GMT+0530 (India Standard Time))
+2024-01-31 16:34:23:482 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2024-01-31 16:34:23:482 [BaseDriver]   chromedriverPort
+2024-01-31 16:34:23:686 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2024-01-31 16:34:23:688 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2024-01-31 16:34:23:688 [BaseDriver] Creating session with W3C capabilities: {
+2024-01-31 16:34:23:688 [BaseDriver]   "alwaysMatch": {
+2024-01-31 16:34:23:688 [BaseDriver]     "platformName": "android",
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:chromedriverPort": 57077,
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:appActivity": "com.example.android.contactmanager.ContactManager",
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:appPackage": "com.example.android.contactmanager",
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:automationName": "uiautomator2",
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:deviceName": "pvq8gmjz75j7fu6p",
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:launchTimeout": 90000,
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:newCommandTimeout": 600,
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:platformVersion": "13.0.0",
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:systemPort": 57089,
+2024-01-31 16:34:23:688 [BaseDriver]     "appium:udid": "pvq8gmjz75j7fu6p"
+2024-01-31 16:34:23:689 [BaseDriver]   },
+2024-01-31 16:34:23:689 [BaseDriver]   "firstMatch": [
+2024-01-31 16:34:23:689 [BaseDriver]     {}
+2024-01-31 16:34:23:689 [BaseDriver]   ]
+2024-01-31 16:34:23:689 [BaseDriver] }
+2024-01-31 16:34:23:695 [BaseDriver] Session created with session id: 15d57210-9a6c-4f86-a87a-0b6280d3e031
+2024-01-31 16:34:23:696 [UiAutomator2] Starting 'com.example.android.contactmanager' directly on the device
+2024-01-31 16:34:23:700 [ADB] Found 1 'build-tools' folders under '/Users/apple/Library/Android/sdk' (newest first):
+2024-01-31 16:34:23:700 [ADB]     /Users/apple/Library/Android/sdk/build-tools/34.0.0
+2024-01-31 16:34:23:700 [ADB] Using 'adb' from '/Users/apple/Library/Android/sdk/platform-tools/adb'
+2024-01-31 16:34:23:700 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2024-01-31 16:34:23:722 [AndroidDriver] Retrieving device list
+2024-01-31 16:34:23:722 [ADB] Trying to find a connected android device
+2024-01-31 16:34:23:722 [ADB] Getting connected devices
+2024-01-31 16:34:23:742 [ADB] Connected devices: [{"udid":"pvq8gmjz75j7fu6p","state":"device"}]
+2024-01-31 16:34:23:742 [AndroidDriver] Using device: pvq8gmjz75j7fu6p
+2024-01-31 16:34:23:743 [ADB] Using 'adb' from '/Users/apple/Library/Android/sdk/platform-tools/adb'
+2024-01-31 16:34:23:743 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2024-01-31 16:34:23:763 [ADB] Setting device id to pvq8gmjz75j7fu6p
+2024-01-31 16:34:23:763 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell getprop ro.build.version.sdk'
+2024-01-31 16:34:23:815 [ADB] Current device property 'ro.build.version.sdk': 33
+2024-01-31 16:34:23:816 [ADB] Getting device platform version
+2024-01-31 16:34:23:816 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell getprop ro.build.version.release'
+2024-01-31 16:34:23:860 [ADB] Current device property 'ro.build.version.release': 13
+2024-01-31 16:34:23:860 [ADB] Device API level: 33
+2024-01-31 16:34:23:860 [UiAutomator2] Relaxing hidden api policy
+2024-01-31 16:34:23:860 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2024-01-31 16:34:23:943 [AndroidDriver] No app sent in, not parsing package/activity
+2024-01-31 16:34:23:944 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p wait-for-device'
+2024-01-31 16:34:23:966 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell echo ping'
+2024-01-31 16:34:24:007 [AndroidDriver] Pushing settings apk to device...
+2024-01-31 16:34:24:008 [ADB] Getting install status for io.appium.settings
+2024-01-31 16:34:24:008 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys package io.appium.settings'
+2024-01-31 16:34:24:063 [ADB] 'io.appium.settings' is installed
+2024-01-31 16:34:24:063 [ADB] Getting package info for 'io.appium.settings'
+2024-01-31 16:34:24:063 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys package io.appium.settings'
+2024-01-31 16:34:24:131 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (62 > 30)
+2024-01-31 16:34:24:131 [ADB] There is no need to downgrade 'io.appium.settings'
+2024-01-31 16:34:24:131 [ADB] Getting IDs of all 'io.appium.settings' processes
+2024-01-31 16:34:24:131 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell 'pgrep --help; echo $?''
+2024-01-31 16:34:24:173 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2024-01-31 16:34:24:240 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2024-01-31 16:34:24:241 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell appops set io.appium.settings android:mock_location allow'
+2024-01-31 16:34:24:297 [Logcat] Starting logs capture with command: /Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p logcat -v threadtime
+2024-01-31 16:34:24:351 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 57089
+2024-01-31 16:34:24:355 [ADB] Forwarding system: 57089 to device: 6790
+2024-01-31 16:34:24:355 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p forward tcp:57089 tcp:6790'
+2024-01-31 16:34:24:380 [ADB] Getting install status for io.appium.uiautomator2.server
+2024-01-31 16:34:24:380 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys package io.appium.uiautomator2.server'
+2024-01-31 16:34:24:429 [ADB] 'io.appium.uiautomator2.server' is installed
+2024-01-31 16:34:24:429 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2024-01-31 16:34:24:429 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys package io.appium.uiautomator2.server'
+2024-01-31 16:34:24:593 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2024-01-31 16:34:24:593 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2024-01-31 16:34:24:593 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+2024-01-31 16:34:24:616 [ADB] Using 'apksigner.jar' from '/Users/apple/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar'
+2024-01-31 16:34:24:621 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/apple/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+2024-01-31 16:34:25:301 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2024-01-31 16:34:25:302 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2024-01-31 16:34:25:302 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2024-01-31 16:34:25:302 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2024-01-31 16:34:25:302 [ADB] 
+2024-01-31 16:34:25:302 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2024-01-31 16:34:25:302 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2024-01-31 16:34:25:302 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2024-01-31 16:34:25:302 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys package io.appium.uiautomator2.server.test'
+2024-01-31 16:34:25:343 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2024-01-31 16:34:25:343 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2024-01-31 16:34:25:346 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/apple/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2024-01-31 16:34:25:644 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2024-01-31 16:34:25:644 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2024-01-31 16:34:25:644 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2024-01-31 16:34:25:644 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2024-01-31 16:34:25:644 [ADB] 
+2024-01-31 16:34:25:644 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2024-01-31 16:34:25:644 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2024-01-31 16:34:25:644 [UiAutomator2] Server packages are not going to be (re)installed
+2024-01-31 16:34:25:646 [UiAutomator2] Waiting up to 30000ms for services to be available
+2024-01-31 16:34:25:646 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell pm list instrumentation'
+2024-01-31 16:34:25:698 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2024-01-31 16:34:25:700 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2024-01-31 16:34:25:700 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2024-01-31 16:34:25:701 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2024-01-31 16:34:25:756 [UiAutomator2] No app capability. Assuming it is already on the device
+2024-01-31 16:34:25:756 [ADB] Getting install status for com.example.android.contactmanager
+2024-01-31 16:34:25:756 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys package com.example.android.contactmanager'
+2024-01-31 16:34:25:801 [ADB] 'com.example.android.contactmanager' is installed
+2024-01-31 16:34:25:801 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell am force-stop com.example.android.contactmanager'
+2024-01-31 16:34:25:864 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell pm clear com.example.android.contactmanager'
+2024-01-31 16:34:25:933 [AndroidDriver] Performed fast reset on the installed 'com.example.android.contactmanager' application (stop and clear)
+2024-01-31 16:34:25:934 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2024-01-31 16:34:25:996 [UiAutomator2] The following obsolete sessions are still running: ["459c2655-1bc9-40a5-bdf7-11b4df9fb03b"]
+2024-01-31 16:34:25:998 [UiAutomator2] Cleaning up 1 obsolete session
+2024-01-31 16:34:27:011 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell am force-stop io.appium.uiautomator2.server.test'
+2024-01-31 16:34:27:067 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2024-01-31 16:34:27:067 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2024-01-31 16:34:27:067 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2024-01-31 16:34:27:067 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","pvq8gmjz75j7fu6p","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2024-01-31 16:34:27:071 [WD Proxy] Matched '/status' to command name 'getStatus'
+2024-01-31 16:34:27:072 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:57089/wd/hub/status] with no body
+2024-01-31 16:34:27:080 [WD Proxy] socket hang up
+2024-01-31 16:34:27:646 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2024-01-31 16:34:28:082 [WD Proxy] Matched '/status' to command name 'getStatus'
+2024-01-31 16:34:28:082 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:57089/wd/hub/status] with no body
+2024-01-31 16:34:28:091 [WD Proxy] socket hang up
+2024-01-31 16:34:29:093 [WD Proxy] Matched '/status' to command name 'getStatus'
+2024-01-31 16:34:29:093 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:57089/wd/hub/status] with no body
+2024-01-31 16:34:29:136 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2024-01-31 16:34:29:136 [UiAutomator2] The initialization of the instrumentation process took 2069ms
+2024-01-31 16:34:29:136 [WD Proxy] Matched '/session' to command name 'createSession'
+2024-01-31 16:34:29:136 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:57089/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":57077,"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","automationName":"uiautomator2","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"newCommandTimeout":600,"platformVersion":"13.0.0","systemPort":57089,"udid":"pvq8gmjz75j7fu6p"},"platformName":"android","chromedriverPort":57077,"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","automationName":"uiautomator2","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"newCommandTimeout":600,"platformVersion":"13.0.0","systemPort":57089,"udid":"pvq8gmjz75j7fu6p","deviceUDID":"pvq8gmjz75j7fu6p"}],"alwaysMatch":{}}}
+2024-01-31 16:34:29:163 [WD Proxy] Got response with status 200: {"sessionId":"56d34860-0e20-4cf9-97c3-2753724b9dfc","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":57077,"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","automationName":"uiautomator2","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"newCommandTimeout":600,"platformVersion":"13.0.0","systemPort":57089,"udid":"pvq8gmjz75j7fu6p"},"platformName":"android","chromedriverPort":57077,"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","automationName":"uiautomator2","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"newCommandTimeout":600,"platformVersion":"13.0.0","systemPort":57089,"udid":"pvq8gmjz75j7fu6p","deviceUDID":"pvq8gmjz75j7f...
+2024-01-31 16:34:29:163 [WD Proxy] Determined the downstream protocol as 'W3C'
+2024-01-31 16:34:29:171 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:57089/wd/hub/session/56d34860-0e20-4cf9-97c3-2753724b9dfc/appium/device/info] with no body
+2024-01-31 16:34:29:214 [WD Proxy] Got response with status 200: {"sessionId":"56d34860-0e20-4cf9-97c3-2753724b9dfc","value":{"androidId":"4601dd5f182d6198","apiVersion":"33","bluetooth":{"state":"ON"},"brand":"Redmi","carrierName":"Jio True5G","displayDensity":440,"locale":"en_IN","manufacturer":"Xiaomi","model":"22101316UP","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":145000,"linkUpstreamBandwidthKbps":60000,"networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"ims","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":20,"subtypeName":"NR","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILIT...
+2024-01-31 16:34:29:214 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell dumpsys window'
+2024-01-31 16:34:29:272 [AndroidDriver] Screen already unlocked, doing nothing
+2024-01-31 16:34:29:272 [UiAutomator2] Starting 'com.example.android.contactmanager/com.example.android.contactmanager.ContactManager and waiting for 'com.example.android.contactmanager/com.example.android.contactmanager.ContactManager'
+2024-01-31 16:34:29:273 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell am start -W -n com.example.android.contactmanager/com.example.android.contactmanager.ContactManager -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2024-01-31 16:34:29:726 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:57089/wd/hub/session/56d34860-0e20-4cf9-97c3-2753724b9dfc/appium/device/pixel_ratio] with no body
+2024-01-31 16:34:29:741 [WD Proxy] Got response with status 200: {"sessionId":"56d34860-0e20-4cf9-97c3-2753724b9dfc","value":2.75}
+2024-01-31 16:34:29:742 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2024-01-31 16:34:29:742 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:57089/wd/hub/session/56d34860-0e20-4cf9-97c3-2753724b9dfc/appium/device/system_bars] with no body
+2024-01-31 16:34:29:755 [WD Proxy] Got response with status 200: {"sessionId":"56d34860-0e20-4cf9-97c3-2753724b9dfc","value":{"statusBar":94}}
+2024-01-31 16:34:29:756 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2024-01-31 16:34:29:756 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:57089/wd/hub/session/56d34860-0e20-4cf9-97c3-2753724b9dfc/window/current/size] with no body
+2024-01-31 16:34:29:769 [WD Proxy] Got response with status 200: {"sessionId":"56d34860-0e20-4cf9-97c3-2753724b9dfc","value":{"height":2176,"width":1080}}
+2024-01-31 16:34:29:770 [Appium] New AndroidUiautomator2Driver session created successfully, session 15d57210-9a6c-4f86-a87a-0b6280d3e031 added to master session list
+2024-01-31 16:34:29:770 [BaseDriver] Event 'newSessionStarted' logged at 1706718869770 (22:04:29 GMT+0530 (India Standard Time))
+2024-01-31 16:34:29:771 [W3C (15d57210)] Cached the protocol value 'W3C' for the new session 15d57210-9a6c-4f86-a87a-0b6280d3e031
+2024-01-31 16:34:29:771 [W3C (15d57210)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":57077,"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","automationName":"uiautomator2","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"newCommandTimeout":600,"platformVersion":"13.0.0","systemPort":57089,"udid":"pvq8gmjz75j7fu6p"},"platformName":"android","chromedriverPort":57077,"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","automationName":"uiautomator2","deviceName":"pvq8gmjz75j7fu6p","launchTimeout":90000,"newCommandTimeout":600,"platformVersion":"13","systemPort":57089,"udid":"pvq8gmjz75j7fu6p","deviceUDID":"pvq8gmjz75j7fu6p","deviceApiLevel":33,"deviceScreenSize":"1080x2400","deviceScreenDensity":4...
+2024-01-31 16:34:29:772 [HTTP] <-- POST /wd/hub/session 200 6293 ms - 1242
+2024-01-31 16:34:29:772 [HTTP] 
+2024-01-31 16:34:32:640 [Appium] Received SIGINT - shutting down
+2024-01-31 16:34:32:641 [Appium] Cleaning up 1 active session
+2024-01-31 16:34:32:641 [Appium] Closing session, cause was 'The process has received SIGINT signal'
+2024-01-31 16:34:32:641 [Appium] Removing session '15d57210-9a6c-4f86-a87a-0b6280d3e031' from our master session list
+2024-01-31 16:34:32:642 [UiAutomator2] Deleting UiAutomator2 session
+2024-01-31 16:34:32:642 [UiAutomator2] Deleting UiAutomator2 server session
+2024-01-31 16:34:32:642 [WD Proxy] Matched '/' to command name 'deleteSession'
+2024-01-31 16:34:32:642 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:57089/wd/hub/session/56d34860-0e20-4cf9-97c3-2753724b9dfc] with no body
+2024-01-31 16:34:32:643 [Logcat] Logcat terminated with code null, signal SIGINT
+2024-01-31 16:34:32:643 [Instrumentation] The process has exited with code null
+2024-01-31 16:34:32:661 [WD Proxy] Got response with status 200: {"sessionId":"56d34860-0e20-4cf9-97c3-2753724b9dfc","value":null}
+2024-01-31 16:34:32:661 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell am force-stop com.example.android.contactmanager'
+2024-01-31 16:34:32:780 [Logcat] Stopping logcat capture
+2024-01-31 16:34:32:781 [Logcat] Logcat already stopped
+2024-01-31 16:34:32:781 [ADB] Removing forwarded port socket connection: 57089 
+2024-01-31 16:34:32:781 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p forward --remove tcp:57089'
+2024-01-31 16:34:32:802 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2024-01-31 16:34:32:802 [ADB] Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s pvq8gmjz75j7fu6p shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''

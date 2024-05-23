@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8886b19-2f1e-424e-b7ca-34b7de9a3821" name="Changes" comment="Maintenance - Spelling correction Bottom menu and elements" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1-sources.jar!/io/cucumber/java/Invoker.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2S5luqtRQkRxgbYWNzE0KKEuOm6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.BDD_MobileBase [clean].executor": "Run",
+    "Maven.BDD_MobileBase [install].executor": "Run",
+    "Maven.qx_mobile_automation_framework [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Qualitrix/Automation Initiative/QTX_Base_Frameworks/MOBILE/qx_mobile_automation_framework_v1.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation core  team\AutomationMobile-main\automationmobile\caps" />
+      <recent name="C:\Automation core  team\AutomationMobile-main\automationmobile\src\main\resources" />
+      <recent name="C:\Automation core  team\AutomationMobile-main\automationmobile" />
+      <recent name="$PROJECT_DIR$/caps" />
+      <recent name="$PROJECT_DIR$/src/main/java/com.qt/bdd/Runner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/TESTNG/" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/" />
+      <recent name="C:\Users\Admin\LycaRegression\automation-testing\src\test\resources\features\Regression\DashBoardModuleRegression" />
+      <recent name="C:\Users\Admin\LycaRegression\automation-testing\src\test\resources\features\Regression\LoginModuleRegression" />
+      <recent name="C:\Users\Admin\LycaRegression\automation-testing\src\test\resources\features\Regression" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qt.bdd.Runner" />
+      <recent name="com.qt.stepdefinitions" />
+      <recent name="" />
+      <recent name="com.qt.bdd.pages" />
+      <recent name="com.qt.commonutils" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Save the contact (1)">
+    <configuration name="Scenario: Save the contact (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SmokeAt.feature" />
+      <option name="GLUE" value="com.qt.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="automationmobile" />
+      <option name="NAME_FILTER" value="^Save the contact$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Save the contact$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Save the contact" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Save the contact" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SmokeAt.feature" />
+      <option name="GLUE" value="com.qt.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDD_MobileBase" />
+      <option name="NAME_FILTER" value="^Save the contact$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Save the contact$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Save the contact" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDD_MobileBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qt.bdd.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qt.bdd.Runner" />
+      <option name="MAIN_CLASS_NAME" value="com.qt.bdd.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunnerAt" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDD_MobileBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qt.bdd.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qt.bdd.Runner" />
+      <option name="MAIN_CLASS_NAME" value="com.qt.bdd.runner.TestRunnerAt" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/apple/AutomationMobile/src/test/resources/TESTNG/testngDemo.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDD_MobileBase" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/TESTNG/testngDemo.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Save the contact" />
+      <item itemvalue="Cucumber Java.Scenario: Save the contact (1)" />
+      <item itemvalue="TestNG.TestRunnerAt" />
+      <item itemvalue="TestNG./Users/apple/AutomationMobile/src/test/resources/TESTNG/testngDemo.xml" />
+      <item itemvalue="TestNG.TestRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Save the contact (1)" />
+        <item itemvalue="TestNG./Users/apple/AutomationMobile/src/test/resources/TESTNG/testngDemo.xml" />
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Save the contact" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8886b19-2f1e-424e-b7ca-34b7de9a3821" name="Changes" comment="" />
+      <created>1688444548475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688444548475</updated>
+      <workItem from="1690799181279" duration="1293000" />
+    </task>
+    <task id="LOCAL-00001" summary="ddkwdkwqhd">
+      <option name="closed" value="true" />
+      <created>1694759187950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694759187950</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ddkwdkwqhd">
+      <option name="closed" value="true" />
+      <created>1694759197970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694759197970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ddkwdkwqhd">
+      <option name="closed" value="true" />
+      <created>1694771981429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694771981429</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated framework">
+      <option name="closed" value="true" />
+      <created>1695023733439</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695023733439</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated framework">
+      <option name="closed" value="true" />
+      <created>1695272879280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695272879280</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated framework">
+      <option name="closed" value="true" />
+      <created>1695272887839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695272887839</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated framework">
+      <option name="closed" value="true" />
+      <created>1695272890258</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695272890258</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated framework">
+      <option name="closed" value="true" />
+      <created>1695275485569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695275485569</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated framework">
+      <option name="closed" value="true" />
+      <created>1695367582218</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695367582218</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated framework">
+      <option name="closed" value="true" />
+      <created>1695379605672</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695379605672</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated framework for australia">
+      <option name="closed" value="true" />
+      <created>1695407275571</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695407275571</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated framework for australia germany">
+      <option name="closed" value="true" />
+      <created>1695629485326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695629485326</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated framework for australia germany">
+      <option name="closed" value="true" />
+      <created>1695629494942</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695629494942</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ADDED LIVE APP MONITOR TESTCASES">
+      <option name="closed" value="true" />
+      <created>1696847100132</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696847100132</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Started with regression suite">
+      <option name="closed" value="true" />
+      <created>1697695105819</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697695105819</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding regression suite">
+      <option name="closed" value="true" />
+      <created>1698658193343</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698658193343</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adding regression suite">
+      <option name="closed" value="true" />
+      <created>1701157869990</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701157869990</updated>
+    </task>
+    <task id="LOCAL-00018" summary="adding regression suite">
+      <option name="closed" value="true" />
+      <created>1702276259470</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702276259470</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Payment module">
+      <option name="closed" value="true" />
+      <created>1702627031173</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702627031173</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Maintenance done">
+      <option name="closed" value="true" />
+      <created>1702875499526</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702875499526</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Maintenance done for payment card">
+      <option name="closed" value="true" />
+      <created>1702879418909</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702879418909</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Maintenance for hide keyboard and payment scroll">
+      <option name="closed" value="true" />
+      <created>1702973328503</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702973328503</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Maintenance for upwords scroll">
+      <option name="closed" value="true" />
+      <created>1703068297640</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1703068297640</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added testrunner &amp; caps files for all countries">
+      <option name="closed" value="true" />
+      <created>1703590519759</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1703590519759</updated>
+    </task>
+    <task id="LOCAL-00025" summary="oreder a sim by santosh">
+      <option name="closed" value="true" />
+      <created>1704182720338</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1704182720338</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Maintenance for upwords scroll">
+      <option name="closed" value="true" />
+      <created>1704284802215</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1704284802215</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Maintenance - Manage account language change , Checkout page scroll logic, Path change for House and Street number.">
+      <option name="closed" value="true" />
+      <created>1704718533059</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1704718533059</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="ddkwdkwqhd" />
+    <MESSAGE value="Updated framework" />
+    <MESSAGE value="Updated framework for australia" />
+    <MESSAGE value="Updated framework for australia germany" />
+    <MESSAGE value="ADDED LIVE APP MONITOR TESTCASES" />
+    <MESSAGE value="ADDED LIVE APP MONITOR TESTCASES in one" />
+    <MESSAGE value="Started with regression suite" />
+    <MESSAGE value="Added payment testsanity suite as per anurag" />
+    <MESSAGE value="adding regression suite" />
+    <MESSAGE value="Payment module" />
+    <MESSAGE value="Maintenance done" />
+    <MESSAGE value="Maintenance done for payment card" />
+    <MESSAGE value="Maintenance for hide keyboard and payment scroll" />
+    <MESSAGE value="Maintenance of testscripts" />
+    <MESSAGE value="Added testrunner &amp; caps files for all countries" />
+    <MESSAGE value="oreder a sim by santosh" />
+    <MESSAGE value="Maintenance for upwords scroll" />
+    <MESSAGE value="Maintenance - Manage account language change , Checkout page scroll logic, Path change for House and Street number." />
+    <MESSAGE value="Maintenance - Spelling correction Bottom menu and elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maintenance - Spelling correction Bottom menu and elements" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qt/stepdefinitions/SmokeTest.java</url>
+          <line>462</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qt/stepdefinitions/SmokeTest.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qt/stepdefinitions/SmokeLycaTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="new GlobalSession()" />
+        <watch expression="appiumManager" />
+        <watch expression="devices" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BDD_MobileBaseFramework$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1688480383536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.qt.bdd.Runner.*</FILTER>
+    </SUITE>
+  </component>
+</project>

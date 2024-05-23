@@ -1,0 +1,110 @@
+2024-05-23 11:32:15:822 [Appium] Welcome to Appium v1.22.1
+2024-05-23 11:32:15:823 [Appium] Non-default server args:
+2024-05-23 11:32:15:823 [Appium]   address: 127.0.0.1
+2024-05-23 11:32:15:823 [Appium]   port: 56014
+2024-05-23 11:32:15:823 [Appium]   bootstrapPort: 56012
+2024-05-23 11:32:15:823 [Appium]   logFile: D:\Qualitrix\Automation Initiative\QTX_Base_Frameworks\MOBILE\qx_mobile_automation_framework_v1.0\reports\Report_2024-05-23 17-02-15\df2579eb\logs\appium_log_1716463935101.txt
+2024-05-23 11:32:15:824 [Appium]   chromedriverPort: 56013
+2024-05-23 11:32:15:824 [Appium] Deprecated server args:
+2024-05-23 11:32:15:824 [Appium]   --chromedriver-port => --default-capabilities
+2024-05-23 11:32:15:825 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2024-05-23 11:32:15:825 [Appium]   chromedriverPort: 56013
+2024-05-23 11:32:15:844 [Appium] Appium REST http interface listener started on 127.0.0.1:56014
+2024-05-23 11:32:16:326 [HTTP] --> GET /wd/hub/status
+2024-05-23 11:32:16:326 [HTTP] {}
+2024-05-23 11:32:16:327 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-05-23 11:32:16:328 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2024-05-23 11:32:16:333 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2024-05-23 11:32:16:333 [HTTP] 
+2024-05-23 11:32:16:337 [HTTP] --> GET /wd/hub/status
+2024-05-23 11:32:16:337 [HTTP] {}
+2024-05-23 11:32:16:338 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-05-23 11:32:16:338 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2024-05-23 11:32:16:339 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2024-05-23 11:32:16:339 [HTTP] 
+2024-05-23 11:32:16:765 [HTTP] --> POST /wd/hub/session
+2024-05-23 11:32:16:765 [HTTP] {"desiredCapabilities":{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"11.0.0","automationName":"uiautomator2","platformName":"Android","udid":"df2579eb","deviceName":"df2579eb","launchTimeout":90000,"systemPort":56022},"capabilities":{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"df2579eb","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"11.0.0","appium:systemPort":56022,"appium:udid":"df2579eb"}]}}
+2024-05-23 11:32:16:765 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"11.0.0","automationName":"uiautomator2","platformName":"Android","udid":"df2579eb","deviceName":"df2579eb","launchTimeout":90000,"systemPort":56022},null,{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"df2579eb","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"11.0.0","appium:systemPort":56022,"appium:udid":"df2579eb"}]}]
+2024-05-23 11:32:16:766 [BaseDriver] Event 'newSessionRequested' logged at 1716463936765 (17:02:16 GMT+0530 (India Standard Time))
+2024-05-23 11:32:16:767 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2024-05-23 11:32:16:767 [BaseDriver]   chromedriverPort
+2024-05-23 11:32:16:881 [Appium] Appium v1.22.1 creating new AndroidUiautomator2Driver (v1.70.1) session
+2024-05-23 11:32:16:882 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2024-05-23 11:32:16:882 [BaseDriver] Creating session with W3C capabilities: {
+2024-05-23 11:32:16:882 [BaseDriver]   "alwaysMatch": {
+2024-05-23 11:32:16:882 [BaseDriver]     "platformName": "android",
+2024-05-23 11:32:16:882 [BaseDriver]     "appium:chromedriverPort": 56013,
+2024-05-23 11:32:16:882 [BaseDriver]     "appium:appActivity": "com.example.android.contactmanager.ContactManager",
+2024-05-23 11:32:16:882 [BaseDriver]     "appium:appPackage": "com.example.android.contactmanager",
+2024-05-23 11:32:16:882 [BaseDriver]     "appium:automationName": "uiautomator2",
+2024-05-23 11:32:16:882 [BaseDriver]     "appium:deviceName": "df2579eb",
+2024-05-23 11:32:16:882 [BaseDriver]     "appium:launchTimeout": 90000,
+2024-05-23 11:32:16:882 [BaseDriver]     "appium:newCommandTimeout": 600,
+2024-05-23 11:32:16:883 [BaseDriver]     "appium:platformVersion": "11.0.0",
+2024-05-23 11:32:16:883 [BaseDriver]     "appium:systemPort": 56022,
+2024-05-23 11:32:16:883 [BaseDriver]     "appium:udid": "df2579eb"
+2024-05-23 11:32:16:883 [BaseDriver]   },
+2024-05-23 11:32:16:883 [BaseDriver]   "firstMatch": [
+2024-05-23 11:32:16:883 [BaseDriver]     {}
+2024-05-23 11:32:16:883 [BaseDriver]   ]
+2024-05-23 11:32:16:883 [BaseDriver] }
+2024-05-23 11:32:16:889 [BaseDriver] Session created with session id: 03c45ff8-bd10-4c68-9ed4-1ff42123be73
+2024-05-23 11:32:16:889 [UiAutomator2] Starting 'com.example.android.contactmanager' directly on the device
+2024-05-23 11:32:16:893 [ADB] Found 1 'build-tools' folders under 'C:\Users\Veena\AppData\Local\Android\Sdk' (newest first):
+2024-05-23 11:32:16:893 [ADB]     C:/Users/Veena/AppData/Local/Android/Sdk/build-tools/34.0.0
+2024-05-23 11:32:16:894 [ADB] Using 'adb.exe' from 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-05-23 11:32:16:894 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-05-23 11:32:16:912 [AndroidDriver] Retrieving device list
+2024-05-23 11:32:16:912 [ADB] Trying to find a connected android device
+2024-05-23 11:32:16:912 [ADB] Getting connected devices
+2024-05-23 11:32:16:928 [ADB] Connected devices: [{"udid":"df2579eb","state":"device"}]
+2024-05-23 11:32:16:928 [AndroidDriver] Using device: df2579eb
+2024-05-23 11:32:16:929 [ADB] Using 'adb.exe' from 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-05-23 11:32:16:929 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-05-23 11:32:16:944 [ADB] Setting device id to df2579eb
+2024-05-23 11:32:16:945 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell getprop ro.build.version.sdk'
+2024-05-23 11:32:17:047 [ADB] Current device property 'ro.build.version.sdk': 34
+2024-05-23 11:32:17:047 [ADB] Getting device platform version
+2024-05-23 11:32:17:048 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell getprop ro.build.version.release'
+2024-05-23 11:32:17:139 [ADB] Current device property 'ro.build.version.release': 14
+2024-05-23 11:32:17:139 [ADB] Device API level: 34
+2024-05-23 11:32:17:139 [UiAutomator2] Relaxing hidden api policy
+2024-05-23 11:32:17:140 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2024-05-23 11:32:17:390 [AndroidDriver] No app sent in, not parsing package/activity
+2024-05-23 11:32:17:391 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb wait-for-device'
+2024-05-23 11:32:17:408 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell echo ping'
+2024-05-23 11:32:17:467 [AndroidDriver] Pushing settings apk to device...
+2024-05-23 11:32:17:468 [ADB] Getting install status for io.appium.settings
+2024-05-23 11:32:17:468 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell dumpsys package io.appium.settings'
+2024-05-23 11:32:17:560 [ADB] 'io.appium.settings' is not installed
+2024-05-23 11:32:17:560 [ADB] App 'C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' is not installed
+2024-05-23 11:32:17:561 [ADB] Installing 'C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2024-05-23 11:32:17:562 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb help'
+2024-05-23 11:32:17:579 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb features'
+2024-05-23 11:32:17:595 [ADB] The application at 'C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2024-05-23 11:32:17:596 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb install -g C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2024-05-23 11:32:18:163 [ADB] Getting install status for io.appium.settings
+2024-05-23 11:32:18:164 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell dumpsys package io.appium.settings'
+2024-05-23 11:32:18:233 [ADB] 'io.appium.settings' is not installed
+2024-05-23 11:32:18:234 [ADB] App 'C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' is not installed
+2024-05-23 11:32:18:234 [ADB] Installing 'C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2024-05-23 11:32:18:234 [ADB] The application at 'C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2024-05-23 11:32:18:234 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb install -g C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2024-05-23 11:32:18:595 [UiAutomator2] Deleting UiAutomator2 session
+2024-05-23 11:32:18:596 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell am force-stop com.example.android.contactmanager'
+2024-05-23 11:32:18:668 [ADB] Removing forwarded port socket connection: 56022 
+2024-05-23 11:32:18:669 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb forward --remove tcp:56022'
+2024-05-23 11:32:18:687 [UiAutomator2] Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\Veena\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s df2579eb forward --remove tcp\:56022' exited with code 1'; Command output: adb.exe: error: listener 'tcp:56022' not found
+2024-05-23 11:32:18:687 [UiAutomator2] 
+2024-05-23 11:32:18:687 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2024-05-23 11:32:18:687 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s df2579eb shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2024-05-23 11:32:18:793 [BaseDriver] Event 'newSessionStarted' logged at 1716463938793 (17:02:18 GMT+0530 (India Standard Time))
+2024-05-23 11:32:18:793 [W3C] Encountered internal error running command: Error executing adbExec. Original error: 'Command 'C:\\Users\\Veena\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s df2579eb install -g C:\\Users\\Veena\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\apks\\settings_apk-debug.apk' exited with code 1'; Command output: adb: failed to install C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk: Failure [INSTALL_FAILED_USER_RESTRICTED: Install canceled by user]
+2024-05-23 11:32:18:793 [W3C] 
+2024-05-23 11:32:18:793 [W3C] Error: Command 'C:\\Users\\Veena\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s df2579eb install -g C:\\Users\\Veena\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\apks\\settings_apk-debug.apk' exited with code 1
+2024-05-23 11:32:18:794 [W3C]     at ChildProcess.<anonymous> (C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\teen_process\lib\exec.js:113:19)
+2024-05-23 11:32:18:794 [W3C]     at ChildProcess.emit (node:events:518:28)
+2024-05-23 11:32:18:794 [W3C]     at maybeClose (node:internal/child_process:1105:16)
+2024-05-23 11:32:18:794 [W3C]     at Process.ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2024-05-23 11:32:18:806 [HTTP] <-- POST /wd/hub/session 500 2040 ms - 1713
+2024-05-23 11:32:18:806 [HTTP] 

@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "environment": "local",
+    "reportName": "Qualitrix Automation Report"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 1234
+  },
+  "cloud_server": {
+    "userName": "krushna.jenaqasasaualitrix",
+    "accessKey": "ZyDVxJ8RZPugaxaxaaa8JkmTnWaMLcLf1LPTMxkWzwX6nIWWPbgfrQyjT",
+    "host": "@mobile-hub.lambasasadatest.com/wd/hub"
+  },
+  "cloudCapabilities": {
+    "build": "Lyca AT",
+    "name": "AUSTRIA",
+    "platformName": "android",
+    "deviceName": "Galaxy .*",
+    "platformVersion": "13",
+    "app": "lt://APP1016asa029691706505429226752",
+    "video": "true",
+    "isRealMobile": "true",
+    "w3c": "true",
+    "region": "AP"
+  },
+  "capabilities": {
+    "android": {
+      "appPackage": "com.example.android.contactmanager",
+      "appActivity": "com.example.android.contactmanager.ContactManager",
+      "platformName": "Android",
+      "newCommandTimeout": 600,
+      "launchTimeout": 90000
+    }
+
+  },
+  "devices":[
+    {
+      "name":"pvq8gmjz75j7fu6p",
+      "version":"13.0.0",
+      "platform":"Android"
+    }
+
+  ]
+}

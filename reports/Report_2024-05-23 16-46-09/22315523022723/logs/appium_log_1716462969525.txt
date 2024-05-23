@@ -1,0 +1,71 @@
+2024-05-23 11:16:11:476 [Appium] Welcome to Appium v1.22.1
+2024-05-23 11:16:11:479 [Appium] Non-default server args:
+2024-05-23 11:16:11:480 [Appium]   address: 127.0.0.1
+2024-05-23 11:16:11:480 [Appium]   port: 54912
+2024-05-23 11:16:11:480 [Appium]   bootstrapPort: 54910
+2024-05-23 11:16:11:480 [Appium]   logFile: D:\Qualitrix\Automation Initiative\QTX_Base_Frameworks\MOBILE\qx_mobile_automation_framework_v1.0\reports\Report_2024-05-23 16-46-09\22315523022723\logs\appium_log_1716462969525.txt
+2024-05-23 11:16:11:481 [Appium]   chromedriverPort: 54911
+2024-05-23 11:16:11:482 [Appium] Deprecated server args:
+2024-05-23 11:16:11:482 [Appium]   --chromedriver-port => --default-capabilities
+2024-05-23 11:16:11:482 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2024-05-23 11:16:11:483 [Appium]   chromedriverPort: 54911
+2024-05-23 11:16:11:518 [Appium] Appium REST http interface listener started on 127.0.0.1:54912
+2024-05-23 11:16:11:976 [HTTP] --> GET /wd/hub/status
+2024-05-23 11:16:11:976 [HTTP] {}
+2024-05-23 11:16:11:977 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-05-23 11:16:11:978 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2024-05-23 11:16:11:987 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2024-05-23 11:16:11:988 [HTTP] 
+2024-05-23 11:16:11:992 [HTTP] --> GET /wd/hub/status
+2024-05-23 11:16:11:992 [HTTP] {}
+2024-05-23 11:16:11:992 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-05-23 11:16:11:992 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2024-05-23 11:16:11:994 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2024-05-23 11:16:11:994 [HTTP] 
+2024-05-23 11:16:12:546 [HTTP] --> POST /wd/hub/session
+2024-05-23 11:16:12:546 [HTTP] {"desiredCapabilities":{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"11.0.0","automationName":"uiautomator2","platformName":"Android","udid":"22315523022723","deviceName":"22315523022723","launchTimeout":90000,"systemPort":54922},"capabilities":{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"22315523022723","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"11.0.0","appium:systemPort":54922,"appium:udid":"22315523022723"}]}}
+2024-05-23 11:16:12:546 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.example.android.contactmanager.ContactManager","appPackage":"com.example.android.contactmanager","newCommandTimeout":600,"platformVersion":"11.0.0","automationName":"uiautomator2","platformName":"Android","udid":"22315523022723","deviceName":"22315523022723","launchTimeout":90000,"systemPort":54922},null,{"firstMatch":[{"appium:appActivity":"com.example.android.contactmanager.ContactManager","appium:appPackage":"com.example.android.contactmanager","appium:automationName":"uiautomator2","appium:deviceName":"22315523022723","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"11.0.0","appium:systemPort":54922,"appium:udid":"22315523022723"}]}]
+2024-05-23 11:16:12:547 [BaseDriver] Event 'newSessionRequested' logged at 1716462972546 (16:46:12 GMT+0530 (India Standard Time))
+2024-05-23 11:16:12:549 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2024-05-23 11:16:12:549 [BaseDriver]   chromedriverPort
+2024-05-23 11:16:12:803 [Appium] Appium v1.22.1 creating new AndroidUiautomator2Driver (v1.70.1) session
+2024-05-23 11:16:12:805 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2024-05-23 11:16:12:805 [BaseDriver] Creating session with W3C capabilities: {
+2024-05-23 11:16:12:805 [BaseDriver]   "alwaysMatch": {
+2024-05-23 11:16:12:805 [BaseDriver]     "platformName": "android",
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:chromedriverPort": 54911,
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:appActivity": "com.example.android.contactmanager.ContactManager",
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:appPackage": "com.example.android.contactmanager",
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:automationName": "uiautomator2",
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:deviceName": "22315523022723",
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:launchTimeout": 90000,
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:newCommandTimeout": 600,
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:platformVersion": "11.0.0",
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:systemPort": 54922,
+2024-05-23 11:16:12:805 [BaseDriver]     "appium:udid": "22315523022723"
+2024-05-23 11:16:12:805 [BaseDriver]   },
+2024-05-23 11:16:12:805 [BaseDriver]   "firstMatch": [
+2024-05-23 11:16:12:805 [BaseDriver]     {}
+2024-05-23 11:16:12:805 [BaseDriver]   ]
+2024-05-23 11:16:12:806 [BaseDriver] }
+2024-05-23 11:16:12:811 [BaseDriver] Session created with session id: e4fe2578-2732-4465-b863-f4e0a0908e7a
+2024-05-23 11:16:12:811 [UiAutomator2] Starting 'com.example.android.contactmanager' directly on the device
+2024-05-23 11:16:12:819 [ADB] Found 1 'build-tools' folders under 'C:\Users\Veena\AppData\Local\Android\Sdk' (newest first):
+2024-05-23 11:16:12:819 [ADB]     C:/Users/Veena/AppData/Local/Android/Sdk/build-tools/34.0.0
+2024-05-23 11:16:12:819 [ADB] Using 'adb.exe' from 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-05-23 11:16:12:820 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-05-23 11:16:12:845 [AndroidDriver] Retrieving device list
+2024-05-23 11:16:12:846 [ADB] Trying to find a connected android device
+2024-05-23 11:16:12:846 [ADB] Getting connected devices
+2024-05-23 11:16:12:864 [ADB] Connected devices: [{"udid":"df2579eb","state":"device"}]
+2024-05-23 11:16:12:865 [AndroidDriver] Device 22315523022723 was not in the list of connected devices
+2024-05-23 11:16:12:865 [UiAutomator2] Deleting UiAutomator2 session
+2024-05-23 11:16:12:866 [BaseDriver] Event 'newSessionStarted' logged at 1716462972866 (16:46:12 GMT+0530 (India Standard Time))
+2024-05-23 11:16:12:895 [W3C] Encountered internal error running command: Error: Device 22315523022723 was not in the list of connected devices
+2024-05-23 11:16:12:895 [W3C]     at Object.errorAndThrow (C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+2024-05-23 11:16:12:895 [W3C]     at Object.getDeviceInfoFromCaps (C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:231:16)
+2024-05-23 11:16:12:895 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:338:26)
+2024-05-23 11:16:12:895 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2024-05-23 11:16:12:895 [W3C]     at AppiumDriver.createSession (C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+2024-05-23 11:16:12:904 [HTTP] <-- POST /wd/hub/session 500 358 ms - 685
+2024-05-23 11:16:12:905 [HTTP] 
